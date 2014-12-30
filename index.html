@@ -1,163 +1,250 @@
 <!doctype html>
 <html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation</title>
-    <link rel="stylesheet" href="stylesheets/app.css" />
-    <script src="bower_components/modernizr/modernizr.js"></script>
-  </head>
-  <body>
-    <div class="row">
-      <div class="large-12 columns">
-        <h1>Welcome to Foundation</h1>
-      </div>
-    </div>
-    
-    <div class="row">
-      <div class="large-12 columns">
-        <div class="panel">
-          <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-          <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-          <p>Once you've exhausted the fun in this document, you should check out:</p>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-          <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-        </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-            </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://twitter.com/foundationzurb">@foundationzurb</a><br />Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-            </div>        
-          </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Foundation</title>
+  <link rel="stylesheet" href="stylesheets/app.css" />
+  <link rel="stylesheet" href="stylesheets/mystyle.css" />
+  <script src="bower_components/modernizr/modernizr.js"></script>
+
+</head>
+<body>
+  <div class=" row content-box">
+    <header>
+      <div class="top-navigation">
+        <div class="row">
+          <dl class="large-12 columns sub-nav right">
+            <dt></dt>
+            <dd><a href="#"><em>Register</em></a></dd>
+            <dd><a href="#"><em>Login</em></a></dd>
+            <dd><a href="#"><em>Entries RSS</em></a></dd>
+            <dd><a href="#"><em>Comments RSS</em></a></dd>
+            <dd><a href="#"><em>Wordpress.org</em></a></dd>
+          </dl>
         </div>
       </div>
-    </div>
 
-    <div class="row">
-      <div class="large-8 medium-8 columns">
-        <h5>Here&rsquo;s your basic grid:</h5>
-        <!-- Grid Example -->
+      <div class="row">
+        <div class="logo large-4 columns">
+          <img src="http://placehold.it/223x150" alt="Logo" />
+        </div>
+        <div class="large-8 columns">
+          <nav class="top-bar">
+            <ul class="title-area">
+              <li class="name"></li>
+            </ul>
+            <li class="toggle-topbar menu-icon"><a href="#"></a></li>
+            <section class="top-bar-section">
+              <ul class="right">
+                <li class="active" ><a href="#"><strong>HOME</strong></a>
+                </li>
+                <li class="has-dropdown"  ><a href="#"><strong>ABOUT</strong></a>
+                  <ul class="dropdown">
+                    <li >TESTIMONIALS</li>
+                    <li >ARCHIVES</li>
+                    <li >FAQS</li>
+                  </ul></li>
+                <li><a href="#"><strong>EVENTS</strong></a></li>
+                <li class="has-dropdown "><a href="#"><strong>GALLERY</strong></a>
+                  <ul class="dropdown">
+                    <li >GALLERY 1</li>
+                    <li>GALLERY 2</li>
+                    <li>GALLERY 3</li>
+                  </ul></li>
+                  <li><a href="#"><strong>BLOG</strong></a></li>
+                  <li><a href="#"><strong>CONTACTS</strong></a></li>
+                </ul>
 
-        <div class="row">
-          <div class="large-12 columns">
-            <div class="callout panel">
-              <p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
-            </div>
+              </section>
+            </nav>
           </div>
         </div>
-        <div class="row">
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-        </div>
-        
-        <hr />
-                
-        <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-        <form>
-          <div class="row">
+        <div class="image-div">
+          <div class="row ">
             <div class="large-12 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-12.columns" />
             </div>
           </div>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <div class="row collapse">
-                <label>Input Label</label>
-                <div class="small-9 columns">
-                  <input type="text" placeholder="small-9.columns" />
+        </div>
+      </header>
+      <div class="row">
+        <div class="medium-12 columns">
+          <ul data-orbit>
+            <li><img src="http://placehold.it/1020x479" alt="first image" /></li>
+            <li><img src="http://placehold.it/1020x479" alt="second image" /></li>
+            <li><img src="http://placehold.it/1020x479" alt="second image" /></li>
+          </ul>
+        </div>
+      </div>
+      <div id="triplet">
+        <div class="row">
+          <div class="medium-4 columns " >
+            <h4 style="color:white;"><strong>EMOCLEW</strong></h3>
+              <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <a href="#" class="button tiny ">DAER EROM</a></div>
+              <div class="medium-4 columns " >
+                <h4 style="color:white;"><strong >OYRSTIH</strong></h3>
+
+                  <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  <a href="#" class="button tiny ">DAER EROM</a>
                 </div>
-                <div class="small-3 columns">
-                  <span class="postfix">.com</span>
+                <div class="medium-4 columns  ">
+                  <h4 style="color:white;"><strong>STNEVE RUO</strong></h3>
+
+                    <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <a href="#" class="button tiny ">DAER EROM</a>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Select Box</label>
-              <select>
-                <option value="husker">Husker</option>
-                <option value="starbuck">Starbuck</option>
-                <option value="hotdog">Hot Dog</option>
-                <option value="apollo">Apollo</option>
-              </select>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-6 medium-6 columns">
-              <label>Choose Your Favorite</label>
-              <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-              <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-            </div>
-            <div class="large-6 medium-6 columns">
-              <label>Check these out</label>
-              <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-              <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Textarea Label</label>
-              <textarea placeholder="small-12.columns"></textarea>
-            </div>
-          </div>
-        </form>
-      </div>     
+              <div class="headings">
+                <div class="row">
+                  <div class="large-4 columns">
+                    <h4>ELLOWY</h4>
+                  </div>
+                  <div class="large-4 columns">
+                    <h4>ELLOWY</h4>
+                  </div>
+                  <div class="large-4 columns">
+                    <h4>ELLOWY</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="triple-box">
+                <ul class="large-block-grid-3">
+                  <li>
+                    <div class="row">
+                      <div class="large-6 columns">
+                        <aside>
+                          <img src="http://placehold.it/122x122" alt="sample" />
+                        </aside>
+                      </div>
+                      <div class="large-6 columns">
+                        <p>
+                          Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="large-6 columns">
+                        <aside >
+                          <img src="http://placehold.it/122x122" alt="sample" />
+                        </aside>
+                      </div>
+                      <div class="large-6 columns">
+                        <p>
+                          Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod
+                        </p>
+                      </div>
+                    </div>
+                    <a class="button " href="#">READ</a>
+                  </li>
+                  <li>
+                    <div class="row">
+                      <div class="large-6 columns">
+                        <aside >
+                          <img src="http://placehold.it/122x122" alt="sample" />
+                        </aside>
+                      </div>
+                      <div class="large-6 columns">
+                        <p>
+                          Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="large-6 columns">
+                        <aside >
+                          <img src="http://placehold.it/122x122" alt="sample" />
+                        </aside>
+                      </div>
+                      <div class="large-6 columns">
+                        <p>
+                          Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod
+                        </p>
+                      </div>
+                    </div>
+                    <a class="button" href="#">READ</a> </li>
+                    <li>
+                      <div class="row">
+                        <div class="large-12 columns">
+                          <p>
+                            Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                          </p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="large-12 columns">
+                          <h4>EERVIONSATSR</h4>
+                          <number ><h3 style="color: #ffffff";>+1 (234) 4567-890</h3></number>
+                          <p>
+                            Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                  </div
+                </div>
+                <div class="image-div">
+                  <div class="row ">
+                    <div class="large-12 columns">
+                    </div>
+                  </div>
+                </div>
 
-      <div class="large-4 medium-4 columns">
-        <h5>Try one of these buttons:</h5>
-        <p><a href="#" class="small button">Simple Button</a><br/>
-        <a href="#" class="small radius button">Radius Button</a><br/>
-        <a href="#" class="small round button">Round Button</a><br/>            
-        <a href="#" class="medium success button">Success Btn</a><br/>
-        <a href="#" class="medium alert button">Alert Btn</a><br/>
-        <a href="#" class="medium secondary button">Secondary Btn</a></p>           
-        <div class="panel">
-          <h5>So many components, girl!</h5>
-          <p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
-          <a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>          
-        </div>
-      </div>
-    </div>
+                <footer>
+                  <div class="footer">
+                    <ul class="large-block-grid-3">
+                      <li><h4>HEOLO FOE</h4>
+                        <div class="row">
+                          <div class="large-12 columns">
+                            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod</p>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="large-12 columns">
+                            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod</p>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="large-12 columns">
+                            <a href="#">See all</a>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="row">
+                          <div class="large-12 columns">
+                            <h4>JDOM EOFMEMF</h4>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <h4>HHDAKH</h4>
+                        <ul class="no-bullet">
+                          <li><a href="#">Siadlfdde</a> ifas asdf asda</li>
+                          <li><a href="#">Siadlfdde</a> ifas asdf asda</li>
+                          <li><a href="#">Siadlfdde</a> ifas asdf asda</li>
+                          <li><a href="#">Siadlfdde</a> ifas asdf asda</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="bottom-bar">
+                    <div class="row">
+                      <div class="large-12 columns">
+                        <p style="color:#5d4735;padding-top:12px;">
+                          Lorem ipsum dolor sit amet conse ctetur <a href="#">adipisicing</a> elit, sed do <a href="#">eiusmod </a> gfjhg.
+                          </p>
+                      </div>
+                    </div>
+                  </div>
+                </footer>
+              </div>
 
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/foundation/js/foundation.min.js"></script>
-    <script src="js/app.js"></script>
-  </body>
-</html>
+              <script src="bower_components/jquery/dist/jquery.min.js"></script>
+              <script src="bower_components/foundation/js/foundation.min.js"></script>
+              <script src="js/app.js"></script>
+
+            </body>
+            </html>
